@@ -86,7 +86,7 @@ namespace D12
         {
             for(int i = start + 1; i < json.Length; i++)
             {
-                if (json[i] == '[')
+                if (json[i] == '[') // skip array property
                 {
                     int level = 0;
                     i++;
@@ -101,7 +101,7 @@ namespace D12
                         i++;
                     }
                 }
-                else if (json[i] == '{')
+                else if (json[i] == '{') // skip object property
                 {
                     int level = 0;
                     bool go = true;
