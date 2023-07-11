@@ -361,7 +361,3 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-/D04/.vs/D04/v17/.suo
-/D01/.vs/D01/FileContentIndex/9054361a-9b8c-4a8f-990e-36a84dfecdec.vsidx
-/D01/.vs/D01/FileContentIndex/f1629a3f-7184-4f51-9f8c-11218938ca46.vsidx
-/D04/.vs/slnx.sqlite
