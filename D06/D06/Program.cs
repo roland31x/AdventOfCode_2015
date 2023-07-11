@@ -28,17 +28,17 @@
                 int endJ = int.Parse(tokens[idx + 2].Split(',')[1]);
                 if (command.Contains("off"))
                 {
-                    TurnOFFP1(mat, startI, startJ, endI, endJ);
+                    TurnOFF(mat, startI, startJ, endI, endJ);
                     Light(mat2, startI, startJ, endI, endJ, -1);
                 }                   
                 else if (command.Contains("on"))
                 {
-                    TurnOnP1(mat, startI, startJ, endI, endJ);
+                    TurnOn(mat, startI, startJ, endI, endJ);
                     Light(mat2, startI, startJ, endI, endJ, 1);
                 }
                 else
                 {
-                    ToggleP1(mat, startI, startJ, endI, endJ);
+                    Toggle(mat, startI, startJ, endI, endJ);
                     Light(mat2, startI, startJ, endI, endJ, 2);
                 }                  
             }
@@ -69,7 +69,7 @@
                 }
             }
         }
-        static void ToggleP1(int[,] mat, int startI, int startJ, int endI,int endJ)
+        static void Toggle(int[,] mat, int startI, int startJ, int endI,int endJ)
         {
             for(int i = startI; i <= endI; i++)
             {
@@ -79,7 +79,7 @@
                 }
             }
         }
-        static void TurnOnP1(int[,] mat, int startI, int startJ, int endI, int endJ)
+        static void TurnOn(int[,] mat, int startI, int startJ, int endI, int endJ)
         {
             for (int i = startI; i <= endI; i++)
             {
@@ -89,7 +89,7 @@
                 }
             }
         }
-        static void TurnOFFP1(int[,] mat, int startI, int startJ, int endI, int endJ)
+        static void TurnOFF(int[,] mat, int startI, int startJ, int endI, int endJ)
         {
             for (int i = startI; i <= endI; i++)
             {
