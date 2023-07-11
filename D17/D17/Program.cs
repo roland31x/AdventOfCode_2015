@@ -49,8 +49,7 @@ namespace D17
                     if (output.Length == minCont)
                             countp2++;
                     count++;
-                }
-                    
+                }                 
             }
             else
             {
