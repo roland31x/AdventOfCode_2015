@@ -22,6 +22,7 @@ namespace D09
             }
             Console.WriteLine("Part 1 solution");
             Console.WriteLine(City.HamiltonianPath(true));
+            Console.WriteLine("Part 2 solution:");
             Console.WriteLine(City.HamiltonianPath(false));
         }
     }
