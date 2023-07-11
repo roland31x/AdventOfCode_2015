@@ -1,0 +1,15 @@
+C:\Visual Studio Repos\AdventOfCode_2015\D02\D02\bin\Debug\net7.0\D02.exe
+C:\Visual Studio Repos\AdventOfCode_2015\D02\D02\bin\Debug\net7.0\D02.deps.json
+C:\Visual Studio Repos\AdventOfCode_2015\D02\D02\bin\Debug\net7.0\D02.runtimeconfig.json
+C:\Visual Studio Repos\AdventOfCode_2015\D02\D02\bin\Debug\net7.0\D02.dll
+C:\Visual Studio Repos\AdventOfCode_2015\D02\D02\bin\Debug\net7.0\D02.pdb
+C:\Visual Studio Repos\AdventOfCode_2015\D02\D02\obj\Debug\net7.0\D02.csproj.AssemblyReference.cache
+C:\Visual Studio Repos\AdventOfCode_2015\D02\D02\obj\Debug\net7.0\D02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Visual Studio Repos\AdventOfCode_2015\D02\D02\obj\Debug\net7.0\D02.AssemblyInfoInputs.cache
+C:\Visual Studio Repos\AdventOfCode_2015\D02\D02\obj\Debug\net7.0\D02.AssemblyInfo.cs
+C:\Visual Studio Repos\AdventOfCode_2015\D02\D02\obj\Debug\net7.0\D02.csproj.CoreCompileInputs.cache
+C:\Visual Studio Repos\AdventOfCode_2015\D02\D02\obj\Debug\net7.0\D02.dll
+C:\Visual Studio Repos\AdventOfCode_2015\D02\D02\obj\Debug\net7.0\refint\D02.dll
+C:\Visual Studio Repos\AdventOfCode_2015\D02\D02\obj\Debug\net7.0\D02.pdb
+C:\Visual Studio Repos\AdventOfCode_2015\D02\D02\obj\Debug\net7.0\D02.genruntimeconfig.cache
+C:\Visual Studio Repos\AdventOfCode_2015\D02\D02\obj\Debug\net7.0\ref\D02.dll
