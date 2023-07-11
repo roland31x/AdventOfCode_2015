@@ -80,7 +80,7 @@ namespace D13
         }
         public static void AddMe()
         {
-            new Friend("Myself");
+            Friend Myself = new Friend("Myself");
             foreach(Friend F in friends)
             {
                 if (F.Name == "Myself")
@@ -89,8 +89,8 @@ namespace D13
                 }
                 else
                 {
-                    FindFriend("Myself").AddAffection(F, 0);
-                    F.AddAffection(FindFriend("Myself"), 0);
+                    Myself.AddAffection(F, 0);
+                    F.AddAffection(Myself, 0);
                 }
                     
             }
