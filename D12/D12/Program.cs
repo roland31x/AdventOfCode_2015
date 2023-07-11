@@ -35,7 +35,7 @@ namespace D12
             sum = 0;
             for(int i = 0; i < json.Length; i++)
             {
-                if (json[i] == '{')
+                if (json[i] == '{') // check if object has a red property or not
                 {
                     bool hasred = HasRed(json, i);
                     if (hasred)
