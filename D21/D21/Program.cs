@@ -1,5 +1,11 @@
 ﻿namespace D21
 {
+    public class Boss // YOUR INPUT HERE
+    {
+        public int HP = 109; // <--
+        public int Dmg = 8; // <--
+        public int Armor = 2; // <--
+    }
     internal class Program
     {
         static List<Item> weapons = new List<Item>(); // max 1 weapons
@@ -172,11 +178,5 @@
     {
         public int HP = 100;
         public List<Item> items = new List<Item>();
-    }
-    public class Boss // YOUR INPUT HERE
-    {
-        public int HP = 109;
-        public int Dmg = 8;
-        public int Armor = 2;
     }
 }
